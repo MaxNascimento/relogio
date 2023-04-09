@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body{
+    background-size:cover;
+    text-align: center;
+    background-image: url('fundo.jpg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+h1{
+    width: 500px;
+    position: flex;
+    font-size: 90px;
+    margin: auto;
+    padding-top: 130px;
+  
+}
+
+.js-data{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.bi-search{
+    background-color: rgba(31, 31, 31, 0.8);
+    padding: 8px;
+    border-radius: 6px;
+ 
+}
+
+.bi-search:hover{
+    background-color: rgba(31, 31, 31, 0.0);
+    padding: 8px;
+ 
+}
+
+
+.msg {
+    position: flex;
+    margin: auto;
+    margin-top: 80px;
+    width: 200px;
+    padding: 2px;
+    transition: .5s;
+    
+}
+
+.msg:hover{
+    background-color: rgba(31, 31, 31, 0.8);
+    border-radius: 8px;
+    box-shadow:  12px 16px 4px rgba(0,0,0,0.24);
+    
+}
+
+.txt{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cfg{
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.bi-wifi{
+    padding-right: 20px;
+}
+
+.link{
+    position: absolute;
+    margin: 30px;
+    width: 250px;
+    transition: .5s;
+}
+
+.link:hover{
+    background-color: rgba(31, 31, 31, 0.8);
+    border-radius: 8px;
+    box-shadow:  12px 16px 4px rgba(0,0,0,0.24);
+    
+}
+
+.res{
+    font-size: 12px;
+    color: rgba(255, 255, 255,0.0);
+}
+
+.res:hover{
+    font-size: 12px;
+    color: rgba(255, 255, 255);
+}
